@@ -1,0 +1,82 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --main-background: #ffffff;
+    --page-background: #2f303a;
+    --secondary-background: #f5f4fa;
+    --logo-part-color: #000000;
+    --background-button: #188ce8;
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background: var(--main-background-);
+  }
+  
+  /* Сброс */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+   /* Heder */
+
+   .nav-list {
+    
+   }
